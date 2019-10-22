@@ -72,7 +72,7 @@
 
     <ul>
       <li><img src="images/broncos.jpg" alt="A wild bronco" width="200" height="100"></li>
-      <li>Denver Broncos
+      <li><a href="https://www.denverbroncos.com/">Denver Broncos</a>
         <ul>
           <li>Coach: Gary Kubiak</li>
           <li>QB
@@ -85,8 +85,8 @@
         </ul>
       </li>
 
-
-      <li>New England Patriots
+      <li><img src="images/pats.jpg" alt="A real patriot" width="200" height="150"></li>
+      <li><a href="https://www.patriots.com/">New England Patriots</a>
         <ul>
           <li>Coach: Dude w/ the cutoff</li>
           <li>QB
@@ -96,10 +96,36 @@
           </li>
         </ul>
       </li>
-
-
     </ul>
 
     <h2> FORM </h2>
+
+<form class="" action="index.html" method="post">
+
+  First:<input type="text" name="firstname"> Last:<input type="text" name="lastname">
+  <br><br>
+  Favorite Sport:<br>
+    <select>
+      <option value="soccer">Soccer</option>
+      <option value="football">Football</option>
+      <option value="basketball">Basketball</option>
+      <option value="hockey">Hockey</option>
+    </select>
+    <br><br>
+    I have: <input type="checkbox" name="attended">Attended
+            <input type="checkbox" name="played">Played
+            <input type="checkbox" name="coached">Coached
+            <input type="checkbox" name="bet on">Bet On <br>
+            this sport.<br><br>
+
+    For this sport I prefer the:
+            <input type="radio" name="amatuer">Amatuer
+            <input type="radio" name="amatuer">College
+            <input type="radio" name="amatuer">Professional
+            <br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
   </body>
 </html>
