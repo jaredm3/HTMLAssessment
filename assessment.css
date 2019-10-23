@@ -41,7 +41,7 @@ blockquote {
 
 #teamRoster>li:nth-child(2) {
   /* background-image: url(images/pats.jpg); */
-  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("images/pats.jpg") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("images/bears.jpg") no-repeat;
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
