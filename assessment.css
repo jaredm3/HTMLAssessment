@@ -30,19 +30,25 @@ blockquote {
   color: white;
 }
 
-#teamRoster > li:nth-child(1) {
-  background-image: url(images/broncos.jpg);
+#teamRoster>li:nth-child(1) {
+  /* background-image: url(images/broncos.jpg); */
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("images/broncos.jpg") no-repeat;
   background-repeat: no-repeat;
   background-position: left;
-  background-size:contain;
+  background-size: contain;
   opacity: 90%;
 }
 
-#teamRoster > li:nth-child(2) {
-  background-image: url(images/pats.jpg);
+#teamRoster>li:nth-child(2) {
+  /* background-image: url(images/pats.jpg); */
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("images/pats.jpg") no-repeat;
   background-repeat: no-repeat;
   background-position: left;
-  background-size:contain;
+  background-size: contain;
+}
+
+ol li:nth-child(1) {
+  font-weight: bold;
 }
 
 img {
@@ -51,4 +57,16 @@ img {
 
 #checkbox-grid {
   list-style: none;
+}
+
+tr:nth-child(even) {
+  background-color: #CCC;
+}
+
+tr:nth-child(odd) {
+  background-color: #FFF;
+}
+
+thead tr:nth-child(2) {
+  background-color: white;
 }
