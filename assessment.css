@@ -1,0 +1,50 @@
+h2, h3, h4, h5 {
+  color: blue;
+  font-family: sans-serif;
+}
+
+thead, tfoot {
+  color: red;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+ #teamRoster ul {
+  list-style-type: square;
+}
+
+a:hover {
+  background-color: yellow;
+  text-decoration: none;
+}
+
+blockquote {
+  background-color: darkblue;
+  color: white;
+}
+
+#teamRoster > li:nth-child(1) {
+  background-image: url(images/broncos.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size:contain;
+  opacity: 90%;
+}
+
+#teamRoster > li:nth-child(2) {
+  background-image: url(images/pats.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size:contain;
+}
+
+img {
+  display: none;
+}
