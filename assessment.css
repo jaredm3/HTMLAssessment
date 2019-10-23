@@ -16,7 +16,7 @@ table {
   border-collapse: collapse;
 }
 
- #teamRoster ul {
+#teamRoster li {
   list-style-type: square;
 }
 
@@ -47,4 +47,8 @@ blockquote {
 
 img {
   display: none;
+}
+
+#checkbox-grid {
+  list-style: none;
 }
